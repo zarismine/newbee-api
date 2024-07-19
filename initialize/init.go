@@ -4,12 +4,14 @@ import (
 	"fmt"
 	"log"
 	"newbee/global"
+
 	// "newbee/models/manage"
 
 	// "newbee/models/mall"
 	"os"
 	"time"
 
+	// "github.com/go-redis/redis"
 	"github.com/spf13/viper"
 	"gorm.io/driver/mysql"
 	"gorm.io/gorm"
@@ -49,6 +51,7 @@ func Init_DB() {
 	// global.DB.AutoMigrate(&mall.MallUser{})
 	// global.DB.AutoMigrate(&mall.MallUserAddress{})
 	// global.DB.AutoMigrate(&mall.MallShoppingCartItem{})
+	// global.DB.AutoMigrate(&mall.MallMessage{})
 	// global.DB.AutoMigrate(&manage.MallAdminUser{})
 	// global.DB.AutoMigrate(&manage.MallAdminUserToken{})
 	// global.DB.AutoMigrate(&manage.MallGoodsCategory{})
@@ -58,7 +61,17 @@ func Init_DB() {
 	// global.DB.AutoMigrate(&manage.MallIndexConfig{})
 }
 
+// func Init_Redis() {
+// 	global.Redis = redis.NewClient(&redis.Options{
+// 		Addr:         viper.GetString("redis.addr"),
+// 		Password:     viper.GetString("redis.password"),
+// 		DB:           viper.GetInt("redis.DB"),
+// 		PoolSize:     viper.GetInt("redis.poolSize"),
+// 		MinIdleConns: viper.GetInt("redis.minIdleConn"),
+// 	})
+// }
 func Init() {
 	InitConfig()
 	Init_DB()
+	// Init_Redis()
 }
