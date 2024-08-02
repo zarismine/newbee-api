@@ -67,6 +67,8 @@ func NewServer() {
 		context.Party("/shop-cart").Handle(new(api.MallCartController))
 		context.Party("/order").Handle(new(api.MallOrderController))
 		context.Party("/index-infos").Handle(new(api.MallIndexInfoController))
+		context.Party("/chat").Handle(new(api.ChatController))
+		context.Party("/contact").Handle(new(api.ContactController))
 	})
 
 	mvc.Configure(app.Party("/api/admin"), func(context *mvc.Application) {
