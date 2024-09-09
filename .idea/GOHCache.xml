@@ -581,6 +581,13 @@
             </set>
           </value>
         </entry>
+        <entry key="messageService">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/services/mallservice/mall_message.go" />
+            </set>
+          </value>
+        </entry>
       </map>
     </option>
     <option name="scannedPathMapping">
@@ -696,7 +703,7 @@
         <entry key="file://$PROJECT_DIR$/controller/api/mall_contact.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1722587881582" />
+              <option name="lastModified" value="1725894341768" />
               <option name="schema">
                 <list>
                   <option value="ContactController" />
@@ -768,14 +775,14 @@
         <entry key="file://$PROJECT_DIR$/global/global.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1722587881583" />
+              <option name="lastModified" value="1725638525624" />
             </ScannedPath>
           </value>
         </entry>
         <entry key="file://$PROJECT_DIR$/initialize/init.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1722587881584" />
+              <option name="lastModified" value="1725638275290" />
             </ScannedPath>
           </value>
         </entry>
@@ -834,7 +841,7 @@
         <entry key="file://$PROJECT_DIR$/models/mall/mall_message.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1722587881585" />
+              <option name="lastModified" value="1721485371410" />
               <option name="schema">
                 <list>
                   <option value="MallMessage" />
@@ -958,7 +965,7 @@
         <entry key="file://$PROJECT_DIR$/models/mall/response/mall_contact.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1722587881585" />
+              <option name="lastModified" value="1721475186202" />
               <option name="schema">
                 <list>
                   <option value="ContactResponse" />
@@ -1043,7 +1050,7 @@
         <entry key="file://$PROJECT_DIR$/models/manage/mall_user_admin.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1725524520276" />
+              <option name="lastModified" value="1720967419975" />
               <option name="schema">
                 <list>
                   <option value="MallAdminUser" />
@@ -1297,7 +1304,7 @@
         <entry key="file://$PROJECT_DIR$/services/adminservice/goods_category.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1725524493834" />
+              <option name="lastModified" value="1720967419987" />
               <option name="schema">
                 <list>
                   <option value="goodsCategoryService" />
@@ -1357,7 +1364,7 @@
         <entry key="file://$PROJECT_DIR$/services/mallservice/mall_category.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1720967419989" />
+              <option name="lastModified" value="1725638579293" />
               <option name="schema">
                 <list>
                   <option value="mallCategoryService" />
@@ -1369,7 +1376,7 @@
         <entry key="file://$PROJECT_DIR$/services/mallservice/mall_chat.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1725525246142" />
+              <option name="lastModified" value="1725896289873" />
               <option name="schema">
                 <list>
                   <option value="chatService" />
@@ -1382,7 +1389,7 @@
         <entry key="file://$PROJECT_DIR$/services/mallservice/mall_contact.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1722587881587" />
+              <option name="lastModified" value="1725636897148" />
               <option name="schema">
                 <list>
                   <option value="contactService" />
@@ -1410,6 +1417,18 @@
               <option name="schema">
                 <list>
                   <option value="indexInfoService" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/services/mallservice/mall_message.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1725692578768" />
+              <option name="schema">
+                <list>
+                  <option value="messageService" />
                 </list>
               </option>
             </ScannedPath>
@@ -1563,6 +1582,7 @@
         <entry key="mall_user_service" value="mallUserService" />
         <entry key="mall_user_token" value="MallUserToken" />
         <entry key="mall_user_token_service" value="mallUserTokenService" />
+        <entry key="message_service" value="messageService" />
         <entry key="node" value="Node" />
         <entry key="order_controller" value="OrderController" />
         <entry key="order_detail_response" value="OrderDetailResponse" />
@@ -1583,6 +1603,6 @@
         <entry key="user_login_param" value="UserLoginParam" />
       </map>
     </option>
-    <option name="lastTimeChecked" value="1725524026342" />
+    <option name="lastTimeChecked" value="1725869192851" />
   </component>
 </project>

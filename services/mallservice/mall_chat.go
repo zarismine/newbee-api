@@ -24,10 +24,14 @@ import (
 var ChatService = newChatService()
 
 func newChatService() *chatService {
-	return &chatService{}
+	return &chatService{
+		clientMap: make(map[int]*Node),
+	}
 }
 
 type chatService struct {
+	sync.RWMutex
+	clientMap map[int]*Node
 }
 
 type Node struct {
@@ -44,8 +48,8 @@ func (node *Node) Heartbeat(heartbeat int64) *Node {
 	return node
 }
 
-var clientMap = make(map[int]*Node, 0)
-var rwLocker sync.RWMutex
+//var clientMap = make(map[int]*Node, 0)
+//var rwLocker sync.RWMutex
 
 func (c *chatService) Chat(writer http.ResponseWriter, request *http.Request) {
 	protocols := websocket.Subprotocols(request)
@@ -76,11 +80,26 @@ func (c *chatService) Chat(writer http.ResponseWriter, request *http.Request) {
 		LoginTime:     dates.NowTimestamp(),
 		DataQueue:     make(chan []byte, 500),
 	}
-	rwLocker.Lock()
-	clientMap[userToken.UserId] = node
-	rwLocker.Unlock()
-	go sendProc(node)
-	go recvProc(node)
+	c.Lock()
+	c.clientMap[userToken.UserId] = node
+	c.Unlock()
+	go c.sendProc(node)
+	go c.recvProc(node)
+	c.boardMsg(node)
+}
+
+func (c *chatService) boardMsg(node *Node) {
+	board := map[string]interface{}{
+		"sendId":  node.UserId,
+		"type":    -2,
+		"content": "上线",
+	}
+	resp, _ := jsoniter.Marshal(board)
+	for _, v := range c.clientMap {
+		if v.UserId != node.UserId {
+			v.DataQueue <- resp
+		}
+	}
 }
 
 func UpDateCache(key string, field string, val string, isRecv bool) {
@@ -111,10 +130,10 @@ func UpDateCache(key string, field string, val string, isRecv bool) {
 	global.Redis.HSet(context.Background(), key, field, string(resp))
 }
 
-func sendProc(node *Node) {
+func (c *chatService) sendProc(node *Node) {
 	defer func() {
-		if _, ok := clientMap[node.UserId]; ok {
-			delete(clientMap, node.UserId)
+		if _, ok := c.clientMap[node.UserId]; ok {
+			delete(c.clientMap, node.UserId)
 		}
 	}()
 	for {
@@ -128,10 +147,10 @@ func sendProc(node *Node) {
 	}
 }
 
-func recvProc(node *Node) {
+func (c *chatService) recvProc(node *Node) {
 	defer func() {
-		if _, ok := clientMap[node.UserId]; ok {
-			delete(clientMap, node.UserId)
+		if _, ok := c.clientMap[node.UserId]; ok {
+			delete(c.clientMap, node.UserId)
 		}
 	}()
 	cacheUserContact := fmt.Sprintf("%s%v", global.CacheUserContactPrefix, node.UserId)
@@ -146,15 +165,18 @@ func recvProc(node *Node) {
 			CreateTime:    jsontime.JSONTime{Time: time.Now()},
 		}
 		err = jsoniter.Unmarshal(data, &msg)
-		if msg.RecvId == 0 || msg.Content == "" {
+		if msg.Content == "" {
 			continue
 		}
 		if err != nil {
 			fmt.Println(err)
 		}
 		if msg.Type == -1 {
+			node.DataQueue <- []byte("hi")
 			currentTime := dates.NowTimestamp()
 			node.Heartbeat(currentTime)
+		} else if msg.Type == -2 {
+			return
 		} else {
 			global.DB.Create(&msg)
 			data, _ = jsoniter.Marshal(msg)
@@ -162,15 +184,15 @@ func recvProc(node *Node) {
 			UpDateCache(cacheUserContact, strconv.Itoa(msg.RecvId), msg.Content, false)
 			cacheUserContactRecv := fmt.Sprintf("%s%v", global.CacheUserContactPrefix, msg.RecvId)
 			UpDateCache(cacheUserContactRecv, strconv.Itoa(node.UserId), msg.Content, true)
-			sendMsg(msg.RecvId, data)
+			c.sendMsg(msg.RecvId, data)
 		}
 	}
 }
 
-func sendMsg(recvId int, data []byte) {
-	rwLocker.RLock()
-	nodeRecv, ok := clientMap[recvId]
-	rwLocker.RUnlock()
+func (c *chatService) sendMsg(recvId int, data []byte) {
+	c.RLock()
+	nodeRecv, ok := c.clientMap[recvId]
+	c.RUnlock()
 	if ok {
 		nodeRecv.DataQueue <- data
 	}
@@ -191,4 +213,12 @@ func (c *chatService) GetRecord(id int, token string) ([]mall.MallMessage, strin
 		return nil, "", err
 	}
 	return messages, user.NickName, nil
+}
+
+func (c *chatService) GetOnlineList() ([]int, error) {
+	var onlineList []int
+	for k, _ := range c.clientMap {
+		onlineList = append(onlineList, k)
+	}
+	return onlineList, nil
 }

@@ -20,3 +20,11 @@ func (m *ContactController) Get() *web.JsonResult {
 	}
 	return web.JsonData(list)
 }
+
+func (m *ContactController) GetOnline() *web.JsonResult {
+	list, err := mallservice.ChatService.GetOnlineList()
+	if err != nil {
+		return web.JsonError(err)
+	}
+	return web.JsonData(list)
+}
