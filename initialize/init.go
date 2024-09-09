@@ -4,20 +4,19 @@ import (
 	"fmt"
 	"log"
 	"newbee/global"
-
 	// "newbee/models/manage"
 
+	// "newbee/models/jsontime"
 	// "newbee/models/mall"
 	"os"
 	"time"
 
-	// "github.com/go-redis/redis"
+	"github.com/redis/go-redis/v9"
 	"github.com/spf13/viper"
 	"gorm.io/driver/mysql"
 	"gorm.io/gorm"
 	"gorm.io/gorm/logger"
 )
-
 
 func InitConfig() {
 	viper.SetConfigName("newbee.env")
@@ -30,16 +29,20 @@ func InitConfig() {
 	fmt.Println("config mysql:", viper.Get("mysql"))
 }
 
-func Init_DB() {
+func InitDB() {
+	logFile, err := os.OpenFile("app.log", os.O_CREATE|os.O_WRONLY|os.O_APPEND, 0666)
+	if err != nil {
+		log.Fatalf("Failed to open log file: %v", err)
+	}
+	//defer logFile.Close()
 	newLogger := logger.New(
-		log.New(os.Stdout, "\r\n", log.LstdFlags),
+		log.New(logFile, "\r\n", log.LstdFlags),
 		logger.Config{
 			SlowThreshold: time.Second,
 			LogLevel:      logger.Info,
 			Colorful:      true,
 		},
 	)
-	var err error
 	global.DB, err = gorm.Open(mysql.Open(viper.GetString("mysql.dns")), &gorm.Config{Logger: newLogger})
 	// DB.First()
 	// fmt.Println(DB.Statement)
@@ -61,17 +64,16 @@ func Init_DB() {
 	// global.DB.AutoMigrate(&manage.MallIndexConfig{})
 }
 
-// func Init_Redis() {
-// 	global.Redis = redis.NewClient(&redis.Options{
-// 		Addr:         viper.GetString("redis.addr"),
-// 		Password:     viper.GetString("redis.password"),
-// 		DB:           viper.GetInt("redis.DB"),
-// 		PoolSize:     viper.GetInt("redis.poolSize"),
-// 		MinIdleConns: viper.GetInt("redis.minIdleConn"),
-// 	})
-// }
+func InitRedis() {
+	global.Redis = redis.NewClient(&redis.Options{
+		Addr:         viper.GetString("redis.addr"),
+		Password:     viper.GetString("redis.password"),
+		PoolSize:     viper.GetInt("redis.poolSize"),
+		MinIdleConns: viper.GetInt("redis.minConn"),
+	})
+}
 func Init() {
 	InitConfig()
-	Init_DB()
-	// Init_Redis()
+	InitDB()
+	InitRedis()
 }

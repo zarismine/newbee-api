@@ -1,0 +1,1588 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GoORMHelperCache">
+    <option name="schemaMapping">
+      <map>
+        <entry key="AddAddressParam">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/models/mall/request/mall_user_address.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="AddCart">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/models/mall/request/mall_cart.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="AdminUserController">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/controller/admin/admin_user.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="CartItemResponse">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/models/mall/response/mall_cart.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="ChatController">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/controller/api/mall_chat.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="CodeError">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/web/errors.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="ContactController">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/controller/api/mall_contact.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="ContactResponse">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/models/mall/response/mall_contact.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="EditCart">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/models/mall/request/mall_cart.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="FirstLevelCategoryVOS">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/models/mall/mall_category.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="GoodCategotyController">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/controller/admin/goods_category.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="GoodsController">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/controller/admin/goods.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="GoodsDetailResponse">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/models/mall/response/mall_goods.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="GoodsInfoAddParam">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/models/manage/request/goods.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="GoodsInfoUpdateParam">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/models/manage/request/goods.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="GoodsResponse">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/models/mall/response/mall_goods.go" />
+              <option value="file://$PROJECT_DIR$/models/manage/response/goods.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="IdsReq">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/models/manage/request/goods_category.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="IndexInfoController">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/controller/admin/index_info.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="JSONTime">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/models/jsontime/jsontime.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="JsonResult">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/web/response.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="MallAdminLoginParam">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/models/manage/request/admin_user.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="MallAdminRegisterParam">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/models/manage/request/admin_user.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="MallAdminUser">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/models/manage/mall_user_admin.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="MallAdminUserToken">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/models/manage/mall_user_token.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="MallCarousel">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/models/manage/carousel.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="MallCartController">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/controller/api/mall_cart.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="MallCategoryController">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/controller/api/mall_category.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="MallGoodsCategory">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/models/manage/goods_category.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="MallGoodsCategoryReq">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/models/manage/request/goods_category.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="MallGoodsController">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/controller/api/mall_goods.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="MallGoodsInfo">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/models/manage/mall_goods.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="MallIndexConfig">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/models/manage/index_info.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="MallIndexConfigAddParams">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/models/manage/request/index_info.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="MallIndexConfigSearch">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/models/manage/request/index_info.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="MallIndexConfigUpdateParams">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/models/manage/request/index_info.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="MallIndexInfoController">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/controller/api/mall_index_info.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="MallMessage">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/models/mall/mall_message.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="MallOrder">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/models/manage/order.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="MallOrderController">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/controller/api/mall_order.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="MallOrderItem">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/models/manage/order_item.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="MallOrderResponse">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/models/mall/response/mall_order.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="MallShoppingCartItem">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/models/mall/mall_cart.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="MallUpdateNameParam">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/models/manage/request/admin_user.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="MallUpdatePasswordParam">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/models/manage/request/admin_user.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="MallUser">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/models/mall/mall_user.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="MallUserAddress">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/models/mall/mall_user_address.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="MallUserAddressController">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/controller/api/mall_user_address.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="MallUserController">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/controller/api/mall_user.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="MallUserToken">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/models/mall/mall_user_token.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="Node">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/services/mallservice/mall_chat.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="OrderController">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/controller/admin/orders.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="OrderDetailResponse">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/models/manage/response/order.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="OrderRes">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/models/manage/response/order.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="OrdersReq">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/models/manage/request/orders.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="PageInfo">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/models/manage/request/goods.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="PageResult">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/models/manage/response/index_info.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="PageSearch">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/models/mall/request/mall_goods.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="RegisterUserParam">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/models/mall/request/mall_user.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="SaveOrder">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/models/mall/request/mall_order.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="SearchCategoryParams">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/models/manage/request/goods_category.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="SecondLevelCategoryVOS">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/models/mall/mall_category.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="StockNumDTO">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/models/manage/request/goods.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="ThirdLevelCategoryVOS">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/models/mall/mall_category.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="UpdateAddressParam">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/models/mall/request/mall_user_address.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="UpdateUserInfoParam">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/models/mall/request/mall_user.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="UserController">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/controller/admin/users.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="UserLoginParam">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/models/mall/request/mall_user.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="adminUser">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/services/adminservice/admin_user.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="adminUserTokenService">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/services/adminservice/admin_user_token.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="chatService">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/services/mallservice/mall_chat.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="contactService">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/services/mallservice/mall_contact.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="goodsCategoryService">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/services/adminservice/goods_category.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="goodsItem">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/services/mallservice/mall_order.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="goodsService">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/services/adminservice/goods.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="indexInfoService">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/services/adminservice/index_info.go" />
+              <option value="file://$PROJECT_DIR$/services/mallservice/mall_index_info.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="mallCartService">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/services/mallservice/mall_cart.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="mallCategoryService">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/services/mallservice/mall_category.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="mallGoodsService">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/services/mallservice/mall_goods.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="mallOrderService">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/services/adminservice/mall_order.go" />
+              <option value="file://$PROJECT_DIR$/services/mallservice/mall_order.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="mallUserAddressService">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/services/mallservice/mall_user_address.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="mallUserService">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/services/adminservice/mall_user.go" />
+              <option value="file://$PROJECT_DIR$/services/mallservice/mall_user.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="mallUserTokenService">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/services/mallservice/mall_user_token.go" />
+            </set>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="scannedPathMapping">
+      <map>
+        <entry key="file://$PROJECT_DIR$/controller/admin/admin_user.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1720967419957" />
+              <option name="schema">
+                <list>
+                  <option value="AdminUserController" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/controller/admin/goods.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1720967419957" />
+              <option name="schema">
+                <list>
+                  <option value="GoodsController" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/controller/admin/goods_category.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1720967419957" />
+              <option name="schema">
+                <list>
+                  <option value="GoodCategotyController" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/controller/admin/index_info.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1720967419958" />
+              <option name="schema">
+                <list>
+                  <option value="IndexInfoController" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/controller/admin/orders.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1720967419958" />
+              <option name="schema">
+                <list>
+                  <option value="OrderController" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/controller/admin/users.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1720967419959" />
+              <option name="schema">
+                <list>
+                  <option value="UserController" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/controller/api/mall_cart.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1720967419959" />
+              <option name="schema">
+                <list>
+                  <option value="MallCartController" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/controller/api/mall_category.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1720967419960" />
+              <option name="schema">
+                <list>
+                  <option value="MallCategoryController" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/controller/api/mall_chat.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1722587881582" />
+              <option name="schema">
+                <list>
+                  <option value="ChatController" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/controller/api/mall_contact.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1722587881582" />
+              <option name="schema">
+                <list>
+                  <option value="ContactController" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/controller/api/mall_goods.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1720967419960" />
+              <option name="schema">
+                <list>
+                  <option value="MallGoodsController" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/controller/api/mall_index_info.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1720967419960" />
+              <option name="schema">
+                <list>
+                  <option value="MallIndexInfoController" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/controller/api/mall_order.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1720967419961" />
+              <option name="schema">
+                <list>
+                  <option value="MallOrderController" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/controller/api/mall_user.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1720967419961" />
+              <option name="schema">
+                <list>
+                  <option value="MallUserController" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/controller/api/mall_user_address.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1720967419962" />
+              <option name="schema">
+                <list>
+                  <option value="MallUserAddressController" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/global/global.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1722587881583" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/initialize/init.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1722587881584" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/main.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1720967419964" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/models/constants/constants.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1720967419965" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/models/jsontime/jsontime.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1720967419965" />
+              <option name="schema">
+                <list>
+                  <option value="JSONTime" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/models/mall/mall_cart.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1720967419966" />
+              <option name="schema">
+                <list>
+                  <option value="MallShoppingCartItem" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/models/mall/mall_category.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1720967419966" />
+              <option name="schema">
+                <list>
+                  <option value="ThirdLevelCategoryVOS" />
+                  <option value="SecondLevelCategoryVOS" />
+                  <option value="FirstLevelCategoryVOS" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/models/mall/mall_message.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1722587881585" />
+              <option name="schema">
+                <list>
+                  <option value="MallMessage" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/models/mall/mall_user.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1720967419967" />
+              <option name="schema">
+                <list>
+                  <option value="MallUser" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/models/mall/mall_user_address.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1720967419967" />
+              <option name="schema">
+                <list>
+                  <option value="MallUserAddress" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/models/mall/mall_user_token.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1720967419968" />
+              <option name="schema">
+                <list>
+                  <option value="MallUserToken" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/models/mall/request/mall_cart.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1720967419968" />
+              <option name="schema">
+                <list>
+                  <option value="EditCart" />
+                  <option value="AddCart" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/models/mall/request/mall_goods.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1720967419969" />
+              <option name="schema">
+                <list>
+                  <option value="PageSearch" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/models/mall/request/mall_order.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1720967419969" />
+              <option name="schema">
+                <list>
+                  <option value="SaveOrder" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/models/mall/request/mall_user.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1720967419969" />
+              <option name="schema">
+                <list>
+                  <option value="RegisterUserParam" />
+                  <option value="UpdateUserInfoParam" />
+                  <option value="UserLoginParam" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/models/mall/request/mall_user_address.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1720967419970" />
+              <option name="schema">
+                <list>
+                  <option value="AddAddressParam" />
+                  <option value="UpdateAddressParam" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/models/mall/response/mall_cart.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1720967419971" />
+              <option name="schema">
+                <list>
+                  <option value="CartItemResponse" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/models/mall/response/mall_contact.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1722587881585" />
+              <option name="schema">
+                <list>
+                  <option value="ContactResponse" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/models/mall/response/mall_goods.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1720967419971" />
+              <option name="schema">
+                <list>
+                  <option value="GoodsResponse" />
+                  <option value="GoodsDetailResponse" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/models/mall/response/mall_order.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1720967419971" />
+              <option name="schema">
+                <list>
+                  <option value="MallOrderResponse" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/models/manage/carousel.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1720967419972" />
+              <option name="schema">
+                <list>
+                  <option value="MallCarousel" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/models/manage/goods_category.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1720967419972" />
+              <option name="schema">
+                <list>
+                  <option value="MallGoodsCategory" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/models/manage/index_info.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1720967419973" />
+              <option name="schema">
+                <list>
+                  <option value="MallIndexConfig" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/models/manage/mall_goods.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1720967419973" />
+              <option name="schema">
+                <list>
+                  <option value="MallGoodsInfo" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/models/manage/mall_user_admin.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1725524520276" />
+              <option name="schema">
+                <list>
+                  <option value="MallAdminUser" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/models/manage/mall_user_token.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1720967419975" />
+              <option name="schema">
+                <list>
+                  <option value="MallAdminUserToken" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/models/manage/order.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1720967419976" />
+              <option name="schema">
+                <list>
+                  <option value="MallOrder" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/models/manage/order_item.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1720967419976" />
+              <option name="schema">
+                <list>
+                  <option value="MallOrderItem" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/models/manage/request/admin_user.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1720967419977" />
+              <option name="schema">
+                <list>
+                  <option value="MallAdminLoginParam" />
+                  <option value="MallAdminRegisterParam" />
+                  <option value="MallUpdateNameParam" />
+                  <option value="MallUpdatePasswordParam" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/models/manage/request/goods.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1720967419977" />
+              <option name="schema">
+                <list>
+                  <option value="PageInfo" />
+                  <option value="GoodsInfoAddParam" />
+                  <option value="GoodsInfoUpdateParam" />
+                  <option value="StockNumDTO" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/models/manage/request/goods_category.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1720967419977" />
+              <option name="schema">
+                <list>
+                  <option value="MallGoodsCategoryReq" />
+                  <option value="SearchCategoryParams" />
+                  <option value="IdsReq" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/models/manage/request/index_info.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1720967419978" />
+              <option name="schema">
+                <list>
+                  <option value="MallIndexConfigSearch" />
+                  <option value="MallIndexConfigAddParams" />
+                  <option value="MallIndexConfigUpdateParams" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/models/manage/request/orders.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1720967419978" />
+              <option name="schema">
+                <list>
+                  <option value="OrdersReq" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/models/manage/response/goods.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1720967419979" />
+              <option name="schema">
+                <list>
+                  <option value="GoodsResponse" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/models/manage/response/index_info.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1720967419979" />
+              <option name="schema">
+                <list>
+                  <option value="PageResult" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/models/manage/response/order.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1720967419980" />
+              <option name="schema">
+                <list>
+                  <option value="OrderRes" />
+                  <option value="OrderDetailResponse" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/pkg/dates/time_utils.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1720967419980" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/pkg/passwd/hashmd5.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1720967419981" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/pkg/passwd/orderno.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1720967419981" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/pkg/passwd/uuid.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1720967419982" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/pkg/passwd/verfiy.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1720967419982" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/pkg/sqls/utils.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1720967419983" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/pkg/stringopt/string.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1720967419983" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/pkg/verfiy/verfiy.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1720967419984" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/router/router.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1722587881586" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/services/adminservice/admin_user.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1720967419985" />
+              <option name="schema">
+                <list>
+                  <option value="adminUser" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/services/adminservice/admin_user_token.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1720967419986" />
+              <option name="schema">
+                <list>
+                  <option value="adminUserTokenService" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/services/adminservice/goods.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1720967419986" />
+              <option name="schema">
+                <list>
+                  <option value="goodsService" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/services/adminservice/goods_category.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1725524493834" />
+              <option name="schema">
+                <list>
+                  <option value="goodsCategoryService" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/services/adminservice/index_info.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1720967419987" />
+              <option name="schema">
+                <list>
+                  <option value="indexInfoService" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/services/adminservice/mall_order.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1720967419988" />
+              <option name="schema">
+                <list>
+                  <option value="mallOrderService" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/services/adminservice/mall_user.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1720967419988" />
+              <option name="schema">
+                <list>
+                  <option value="mallUserService" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/services/mallservice/mall_cart.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1720967419989" />
+              <option name="schema">
+                <list>
+                  <option value="mallCartService" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/services/mallservice/mall_category.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1720967419989" />
+              <option name="schema">
+                <list>
+                  <option value="mallCategoryService" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/services/mallservice/mall_chat.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1725525246142" />
+              <option name="schema">
+                <list>
+                  <option value="chatService" />
+                  <option value="Node" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/services/mallservice/mall_contact.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1722587881587" />
+              <option name="schema">
+                <list>
+                  <option value="contactService" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/services/mallservice/mall_goods.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1720967419989" />
+              <option name="schema">
+                <list>
+                  <option value="mallGoodsService" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/services/mallservice/mall_index_info.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1720967419990" />
+              <option name="schema">
+                <list>
+                  <option value="indexInfoService" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/services/mallservice/mall_order.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1720967419990" />
+              <option name="schema">
+                <list>
+                  <option value="mallOrderService" />
+                  <option value="goodsItem" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/services/mallservice/mall_user.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1720967419991" />
+              <option name="schema">
+                <list>
+                  <option value="mallUserService" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/services/mallservice/mall_user_address.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1720967419991" />
+              <option name="schema">
+                <list>
+                  <option value="mallUserAddressService" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/services/mallservice/mall_user_token.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1720967419991" />
+              <option name="schema">
+                <list>
+                  <option value="mallUserTokenService" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/web/errors.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1720967419992" />
+              <option name="schema">
+                <list>
+                  <option value="CodeError" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/web/params.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1720967419992" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/web/response.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1720967419993" />
+              <option name="schema">
+                <list>
+                  <option value="JsonResult" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="tableStructMapping">
+      <map>
+        <entry key="add_address_param" value="AddAddressParam" />
+        <entry key="add_cart" value="AddCart" />
+        <entry key="admin_user" value="adminUser" />
+        <entry key="admin_user_controller" value="AdminUserController" />
+        <entry key="admin_user_token_service" value="adminUserTokenService" />
+        <entry key="cart_item_response" value="CartItemResponse" />
+        <entry key="chat_controller" value="ChatController" />
+        <entry key="chat_service" value="chatService" />
+        <entry key="code_error" value="CodeError" />
+        <entry key="contact_controller" value="ContactController" />
+        <entry key="contact_response" value="ContactResponse" />
+        <entry key="contact_service" value="contactService" />
+        <entry key="edit_cart" value="EditCart" />
+        <entry key="first_level_category_vos" value="FirstLevelCategoryVOS" />
+        <entry key="good_categoty_controller" value="GoodCategotyController" />
+        <entry key="goods_category_service" value="goodsCategoryService" />
+        <entry key="goods_controller" value="GoodsController" />
+        <entry key="goods_detail_response" value="GoodsDetailResponse" />
+        <entry key="goods_info_add_param" value="GoodsInfoAddParam" />
+        <entry key="goods_info_update_param" value="GoodsInfoUpdateParam" />
+        <entry key="goods_item" value="goodsItem" />
+        <entry key="goods_response" value="GoodsResponse" />
+        <entry key="goods_service" value="goodsService" />
+        <entry key="ids_req" value="IdsReq" />
+        <entry key="index_info_controller" value="IndexInfoController" />
+        <entry key="index_info_service" value="indexInfoService" />
+        <entry key="json_result" value="JsonResult" />
+        <entry key="json_time" value="JSONTime" />
+        <entry key="mall_admin_login_param" value="MallAdminLoginParam" />
+        <entry key="mall_admin_register_param" value="MallAdminRegisterParam" />
+        <entry key="mall_admin_user" value="MallAdminUser" />
+        <entry key="mall_admin_user_token" value="MallAdminUserToken" />
+        <entry key="mall_carousel" value="MallCarousel" />
+        <entry key="mall_cart_controller" value="MallCartController" />
+        <entry key="mall_cart_service" value="mallCartService" />
+        <entry key="mall_category_controller" value="MallCategoryController" />
+        <entry key="mall_category_service" value="mallCategoryService" />
+        <entry key="mall_goods_category" value="MallGoodsCategory" />
+        <entry key="mall_goods_category_req" value="MallGoodsCategoryReq" />
+        <entry key="mall_goods_controller" value="MallGoodsController" />
+        <entry key="mall_goods_info" value="MallGoodsInfo" />
+        <entry key="mall_goods_service" value="mallGoodsService" />
+        <entry key="mall_index_config" value="MallIndexConfig" />
+        <entry key="mall_index_config_add_params" value="MallIndexConfigAddParams" />
+        <entry key="mall_index_config_search" value="MallIndexConfigSearch" />
+        <entry key="mall_index_config_update_params" value="MallIndexConfigUpdateParams" />
+        <entry key="mall_index_info_controller" value="MallIndexInfoController" />
+        <entry key="mall_message" value="MallMessage" />
+        <entry key="mall_order" value="MallOrder" />
+        <entry key="mall_order_controller" value="MallOrderController" />
+        <entry key="mall_order_item" value="MallOrderItem" />
+        <entry key="mall_order_response" value="MallOrderResponse" />
+        <entry key="mall_order_service" value="mallOrderService" />
+        <entry key="mall_shopping_cart_item" value="MallShoppingCartItem" />
+        <entry key="mall_update_name_param" value="MallUpdateNameParam" />
+        <entry key="mall_update_password_param" value="MallUpdatePasswordParam" />
+        <entry key="mall_user" value="MallUser" />
+        <entry key="mall_user_address" value="MallUserAddress" />
+        <entry key="mall_user_address_controller" value="MallUserAddressController" />
+        <entry key="mall_user_address_service" value="mallUserAddressService" />
+        <entry key="mall_user_controller" value="MallUserController" />
+        <entry key="mall_user_service" value="mallUserService" />
+        <entry key="mall_user_token" value="MallUserToken" />
+        <entry key="mall_user_token_service" value="mallUserTokenService" />
+        <entry key="node" value="Node" />
+        <entry key="order_controller" value="OrderController" />
+        <entry key="order_detail_response" value="OrderDetailResponse" />
+        <entry key="order_res" value="OrderRes" />
+        <entry key="orders_req" value="OrdersReq" />
+        <entry key="page_info" value="PageInfo" />
+        <entry key="page_result" value="PageResult" />
+        <entry key="page_search" value="PageSearch" />
+        <entry key="register_user_param" value="RegisterUserParam" />
+        <entry key="save_order" value="SaveOrder" />
+        <entry key="search_category_params" value="SearchCategoryParams" />
+        <entry key="second_level_category_vos" value="SecondLevelCategoryVOS" />
+        <entry key="stock_num_dto" value="StockNumDTO" />
+        <entry key="third_level_category_vos" value="ThirdLevelCategoryVOS" />
+        <entry key="update_address_param" value="UpdateAddressParam" />
+        <entry key="update_user_info_param" value="UpdateUserInfoParam" />
+        <entry key="user_controller" value="UserController" />
+        <entry key="user_login_param" value="UserLoginParam" />
+      </map>
+    </option>
+    <option name="lastTimeChecked" value="1725524026342" />
+  </component>
+</project>

@@ -8,4 +8,5 @@ type ContactResponse struct {
 	MessageContent string `json:"messageContent" form:"messageContent"`
 	NickName       string `json:"nickName" form:"nickName"`
 	MessageTime    string `json:"messageTime" form:"messageTime"`
+	Count          int64  `json:"count" form:"count"`
 }
