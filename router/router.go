@@ -14,22 +14,22 @@ import (
 )
 
 func isAllowedOrigin(origin string, allowedCidrs []string) bool {
-    // 解析请求的IP地址
-    ip, _, err := net.SplitHostPort(strings.TrimPrefix(origin, "http://"))
-    if err != nil {
-        return false
-    }
-    // 检查IP是否在允许的CIDR范围内
-    for _, cidr := range allowedCidrs {
-        _, subnet, err := net.ParseCIDR(cidr)
-        if err != nil {
-            continue
-        }
-        if subnet.Contains(net.ParseIP(ip)) {
-            return true
-        }
-    }
-    return false
+	// 解析请求的IP地址
+	ip, _, err := net.SplitHostPort(strings.TrimPrefix(origin, "http://"))
+	if err != nil {
+		return false
+	}
+	// 检查IP是否在允许的CIDR范围内
+	for _, cidr := range allowedCidrs {
+		_, subnet, err := net.ParseCIDR(cidr)
+		if err != nil {
+			continue
+		}
+		if subnet.Contains(net.ParseIP(ip)) {
+			return true
+		}
+	}
+	return false
 }
 
 // 方法二
@@ -69,6 +69,7 @@ func NewServer() {
 		context.Party("/index-infos").Handle(new(api.MallIndexInfoController))
 		context.Party("/chat").Handle(new(api.ChatController))
 		context.Party("/contact").Handle(new(api.ContactController))
+		context.Party("/message").Handle(new(api.MessageController))
 	})
 
 	mvc.Configure(app.Party("/api/admin"), func(context *mvc.Application) {
@@ -79,5 +80,5 @@ func NewServer() {
 		context.Party("/order").Handle(new(admin.OrderController))
 		context.Party("/indexConfigs").Handle(new(admin.IndexInfoController))
 	})
-	app.Run(iris.Addr(":8081"))
+	app.Run(iris.Addr(":28081"))
 }

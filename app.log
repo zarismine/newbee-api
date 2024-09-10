@@ -13414,3 +13414,243 @@
 
 2024/09/10 00:03:08 [32mC:/Users/孔浩然/Desktop/goproject/newbee-api/newbee/services/mallservice/mall_cart.go:35
 [0m[33m[88.383ms] [34;1m[rows:0][0m SELECT * FROM `tb_newbee_mall_shopping_cart_item` WHERE user_id = 2 and is_deleted = 0
+
+2024/09/10 10:27:07 [32mC:/Users/孔浩然/Desktop/goproject/newbee-api/newbee/services/mallservice/mall_user_token.go:28
+[0m[33m[312.568ms] [34;1m[rows:1][0m SELECT * FROM `tb_newbee_mall_user_token` WHERE token = '244704f28a36449e83e7703a574f9ae6' LIMIT 1
+
+2024/09/10 10:27:07 [32mC:/Users/孔浩然/Desktop/goproject/newbee-api/newbee/services/mallservice/mall_user_token.go:28
+[0m[33m[342.850ms] [34;1m[rows:1][0m SELECT * FROM `tb_newbee_mall_user_token` WHERE token = '244704f28a36449e83e7703a574f9ae6' LIMIT 1
+
+2024/09/10 10:27:07 [32mC:/Users/孔浩然/Desktop/goproject/newbee-api/newbee/services/mallservice/mall_index_info.go:29
+[0m[33m[322.376ms] [34;1m[rows:3][0m SELECT * FROM `newbee`.`tb_newbee_mall_index_config` WHERE config_type = 3 and is_deleted = 0
+
+2024/09/10 10:27:07 [32mC:/Users/孔浩然/Desktop/goproject/newbee-api/newbee/services/mallservice/mall_user_token.go:28
+[0m[33m[328.761ms] [34;1m[rows:1][0m SELECT * FROM `tb_newbee_mall_user_token` WHERE token = '244704f28a36449e83e7703a574f9ae6' LIMIT 1
+
+2024/09/10 10:27:08 [32mC:/Users/孔浩然/Desktop/goproject/newbee-api/newbee/services/mallservice/mall_user.go:34
+[0m[33m[86.585ms] [34;1m[rows:1][0m SELECT * FROM `tb_newbee_mall_user` WHERE user_id = 1 LIMIT 1
+
+2024/09/10 10:27:08 [32mC:/Users/孔浩然/Desktop/goproject/newbee-api/newbee/services/mallservice/mall_user.go:34
+[0m[33m[89.720ms] [34;1m[rows:1][0m SELECT * FROM `tb_newbee_mall_user` WHERE user_id = 1 LIMIT 1
+
+2024/09/10 10:27:08 [32mC:/Users/孔浩然/Desktop/goproject/newbee-api/newbee/services/mallservice/mall_goods.go:21
+[0m[33m[90.623ms] [34;1m[rows:1][0m SELECT * FROM `tb_newbee_mall_goods_info` WHERE goods_id = 100 LIMIT 1
+
+2024/09/10 10:27:08 [32mC:/Users/孔浩然/Desktop/goproject/newbee-api/newbee/services/mallservice/mall_user.go:34
+[0m[33m[97.672ms] [34;1m[rows:1][0m SELECT * FROM `tb_newbee_mall_user` WHERE user_id = 1 LIMIT 1
+
+2024/09/10 10:27:08 [32mC:/Users/孔浩然/Desktop/goproject/newbee-api/newbee/services/mallservice/mall_goods.go:21
+[0m[33m[89.566ms] [34;1m[rows:1][0m SELECT * FROM `tb_newbee_mall_goods_info` WHERE goods_id = 33116 LIMIT 1
+
+2024/09/10 10:27:08 [32mC:/Users/孔浩然/Desktop/goproject/newbee-api/newbee/services/mallservice/mall_user_token.go:63
+[0m[33m[171.311ms] [34;1m[rows:1][0m UPDATE `tb_newbee_mall_user_token` SET `expire_time`=1726108028014 WHERE `user_id` = 1
+
+2024/09/10 10:27:08 [32mC:/Users/孔浩然/Desktop/goproject/newbee-api/newbee/services/mallservice/mall_user_token.go:63
+[0m[33m[180.527ms] [34;1m[rows:1][0m UPDATE `tb_newbee_mall_user_token` SET `expire_time`=1726108028020 WHERE `user_id` = 1
+
+2024/09/10 10:27:08 [32mC:/Users/孔浩然/Desktop/goproject/newbee-api/newbee/services/mallservice/mall_goods.go:21
+[0m[33m[108.268ms] [34;1m[rows:1][0m SELECT * FROM `tb_newbee_mall_goods_info` WHERE goods_id = 189 LIMIT 1
+
+2024/09/10 10:27:08 [32mC:/Users/孔浩然/Desktop/goproject/newbee-api/newbee/services/mallservice/mall_user_token.go:63
+[0m[33m[195.519ms] [34;1m[rows:1][0m UPDATE `tb_newbee_mall_user_token` SET `expire_time`=1726108028038 WHERE `user_id` = 1
+
+2024/09/10 10:27:08 [32mC:/Users/孔浩然/Desktop/goproject/newbee-api/newbee/services/mallservice/mall_cart.go:35
+[0m[33m[81.935ms] [34;1m[rows:2][0m SELECT * FROM `tb_newbee_mall_shopping_cart_item` WHERE user_id = 1 and is_deleted = 0
+
+2024/09/10 10:27:08 [32mC:/Users/孔浩然/Desktop/goproject/newbee-api/newbee/services/mallservice/mall_index_info.go:29
+[0m[33m[86.572ms] [34;1m[rows:2][0m SELECT * FROM `newbee`.`tb_newbee_mall_index_config` WHERE config_type = 4 and is_deleted = 0
+
+2024/09/10 10:27:08 [32mC:/Users/孔浩然/Desktop/goproject/newbee-api/newbee/services/mallservice/mall_goods.go:21
+[0m[33m[94.968ms] [34;1m[rows:1][0m SELECT * FROM `tb_newbee_mall_goods_info` WHERE goods_id = 241 LIMIT 1
+
+2024/09/10 10:27:08 [32mC:/Users/孔浩然/Desktop/goproject/newbee-api/newbee/services/mallservice/mall_goods.go:21
+[0m[33m[86.630ms] [34;1m[rows:1][0m SELECT * FROM `tb_newbee_mall_goods_info` WHERE goods_id = 54916 LIMIT 1
+
+2024/09/10 10:27:08 [32mC:/Users/孔浩然/Desktop/goproject/newbee-api/newbee/services/mallservice/mall_goods.go:21
+[0m[33m[94.927ms] [34;1m[rows:1][0m SELECT * FROM `tb_newbee_mall_goods_info` WHERE goods_id = 43558 LIMIT 1
+
+2024/09/10 10:27:08 [32mC:/Users/孔浩然/Desktop/goproject/newbee-api/newbee/services/mallservice/mall_goods.go:21
+[0m[33m[86.570ms] [34;1m[rows:1][0m SELECT * FROM `tb_newbee_mall_goods_info` WHERE goods_id = 43558 LIMIT 1
+
+2024/09/10 10:27:08 [32mC:/Users/孔浩然/Desktop/goproject/newbee-api/newbee/services/mallservice/mall_index_info.go:29
+[0m[33m[93.170ms] [34;1m[rows:4][0m SELECT * FROM `newbee`.`tb_newbee_mall_index_config` WHERE config_type = 5 and is_deleted = 0
+
+2024/09/10 10:27:08 [32mC:/Users/孔浩然/Desktop/goproject/newbee-api/newbee/services/mallservice/mall_goods.go:21
+[0m[33m[94.196ms] [34;1m[rows:1][0m SELECT * FROM `tb_newbee_mall_goods_info` WHERE goods_id = 53526 LIMIT 1
+
+2024/09/10 10:27:08 [32mC:/Users/孔浩然/Desktop/goproject/newbee-api/newbee/services/mallservice/mall_contact.go:58
+[0m[33m[43.791ms] [34;1m[rows:11][0m SELECT * FROM `tb_newbee_mall_user`
+
+2024/09/10 10:27:08 [32mC:/Users/孔浩然/Desktop/goproject/newbee-api/newbee/services/mallservice/mall_goods.go:21
+[0m[33m[94.079ms] [34;1m[rows:1][0m SELECT * FROM `tb_newbee_mall_goods_info` WHERE goods_id = 26478 LIMIT 1
+
+2024/09/10 10:27:08 [32mC:/Users/孔浩然/Desktop/goproject/newbee-api/newbee/services/mallservice/mall_contact.go:27
+[0m[33m[103.770ms] [34;1m[rows:1][0m SELECT * FROM `tb_newbee_mall_message` WHERE (send_id = 1 AND recv_id = 2) OR (send_id = 2 AND recv_id = 1) ORDER BY create_time DESC LIMIT 1
+
+2024/09/10 10:27:08 [32mC:/Users/孔浩然/Desktop/goproject/newbee-api/newbee/services/mallservice/mall_goods.go:21
+[0m[33m[98.132ms] [34;1m[rows:1][0m SELECT * FROM `tb_newbee_mall_goods_info` WHERE goods_id = 54988 LIMIT 1
+
+2024/09/10 10:27:08 [32mC:/Users/孔浩然/Desktop/goproject/newbee-api/newbee/services/mallservice/mall_contact.go:28
+[0m[33m[91.553ms] [34;1m[rows:1][0m SELECT count(*) FROM `tb_newbee_mall_message` WHERE send_id = 2 AND recv_id = 1 AND message_status = 1
+
+2024/09/10 10:27:08 [32mC:/Users/孔浩然/Desktop/goproject/newbee-api/newbee/services/mallservice/mall_goods.go:21
+[0m[33m[93.924ms] [34;1m[rows:1][0m SELECT * FROM `tb_newbee_mall_goods_info` WHERE goods_id = 54676 LIMIT 1
+
+2024/09/10 10:27:09 [31;1mC:/Users/孔浩然/Desktop/goproject/newbee-api/newbee/services/mallservice/mall_contact.go:27 [35;1mrecord not found
+[0m[33m[88.252ms] [34;1m[rows:0][0m SELECT * FROM `tb_newbee_mall_message` WHERE (send_id = 1 AND recv_id = 3) OR (send_id = 3 AND recv_id = 1) ORDER BY create_time DESC LIMIT 1
+
+2024/09/10 10:27:09 [32mC:/Users/孔浩然/Desktop/goproject/newbee-api/newbee/services/mallservice/mall_contact.go:28
+[0m[33m[86.507ms] [34;1m[rows:1][0m SELECT count(*) FROM `tb_newbee_mall_message` WHERE send_id = 3 AND recv_id = 1 AND message_status = 1
+
+2024/09/10 10:27:09 [31;1mC:/Users/孔浩然/Desktop/goproject/newbee-api/newbee/services/mallservice/mall_contact.go:27 [35;1mrecord not found
+[0m[33m[86.158ms] [34;1m[rows:0][0m SELECT * FROM `tb_newbee_mall_message` WHERE (send_id = 1 AND recv_id = 4) OR (send_id = 4 AND recv_id = 1) ORDER BY create_time DESC LIMIT 1
+
+2024/09/10 10:27:09 [32mC:/Users/孔浩然/Desktop/goproject/newbee-api/newbee/services/mallservice/mall_contact.go:28
+[0m[33m[85.946ms] [34;1m[rows:1][0m SELECT count(*) FROM `tb_newbee_mall_message` WHERE send_id = 4 AND recv_id = 1 AND message_status = 1
+
+2024/09/10 10:27:09 [31;1mC:/Users/孔浩然/Desktop/goproject/newbee-api/newbee/services/mallservice/mall_contact.go:27 [35;1mrecord not found
+[0m[33m[86.631ms] [34;1m[rows:0][0m SELECT * FROM `tb_newbee_mall_message` WHERE (send_id = 1 AND recv_id = 5) OR (send_id = 5 AND recv_id = 1) ORDER BY create_time DESC LIMIT 1
+
+2024/09/10 10:27:09 [32mC:/Users/孔浩然/Desktop/goproject/newbee-api/newbee/services/mallservice/mall_contact.go:28
+[0m[33m[86.685ms] [34;1m[rows:1][0m SELECT count(*) FROM `tb_newbee_mall_message` WHERE send_id = 5 AND recv_id = 1 AND message_status = 1
+
+2024/09/10 10:27:09 [31;1mC:/Users/孔浩然/Desktop/goproject/newbee-api/newbee/services/mallservice/mall_contact.go:27 [35;1mrecord not found
+[0m[33m[86.855ms] [34;1m[rows:0][0m SELECT * FROM `tb_newbee_mall_message` WHERE (send_id = 1 AND recv_id = 6) OR (send_id = 6 AND recv_id = 1) ORDER BY create_time DESC LIMIT 1
+
+2024/09/10 10:27:09 [32mC:/Users/孔浩然/Desktop/goproject/newbee-api/newbee/services/mallservice/mall_contact.go:28
+[0m[33m[85.905ms] [34;1m[rows:1][0m SELECT count(*) FROM `tb_newbee_mall_message` WHERE send_id = 6 AND recv_id = 1 AND message_status = 1
+
+2024/09/10 10:27:09 [31;1mC:/Users/孔浩然/Desktop/goproject/newbee-api/newbee/services/mallservice/mall_contact.go:27 [35;1mrecord not found
+[0m[33m[86.081ms] [34;1m[rows:0][0m SELECT * FROM `tb_newbee_mall_message` WHERE (send_id = 1 AND recv_id = 7) OR (send_id = 7 AND recv_id = 1) ORDER BY create_time DESC LIMIT 1
+
+2024/09/10 10:27:09 [32mC:/Users/孔浩然/Desktop/goproject/newbee-api/newbee/services/mallservice/mall_contact.go:28
+[0m[33m[85.804ms] [34;1m[rows:1][0m SELECT count(*) FROM `tb_newbee_mall_message` WHERE send_id = 7 AND recv_id = 1 AND message_status = 1
+
+2024/09/10 10:27:09 [31;1mC:/Users/孔浩然/Desktop/goproject/newbee-api/newbee/services/mallservice/mall_contact.go:27 [35;1mrecord not found
+[0m[33m[86.177ms] [34;1m[rows:0][0m SELECT * FROM `tb_newbee_mall_message` WHERE (send_id = 1 AND recv_id = 8) OR (send_id = 8 AND recv_id = 1) ORDER BY create_time DESC LIMIT 1
+
+2024/09/10 10:27:09 [32mC:/Users/孔浩然/Desktop/goproject/newbee-api/newbee/services/mallservice/mall_contact.go:28
+[0m[33m[85.558ms] [34;1m[rows:1][0m SELECT count(*) FROM `tb_newbee_mall_message` WHERE send_id = 8 AND recv_id = 1 AND message_status = 1
+
+2024/09/10 10:27:10 [31;1mC:/Users/孔浩然/Desktop/goproject/newbee-api/newbee/services/mallservice/mall_contact.go:27 [35;1mrecord not found
+[0m[33m[104.247ms] [34;1m[rows:0][0m SELECT * FROM `tb_newbee_mall_message` WHERE (send_id = 1 AND recv_id = 9) OR (send_id = 9 AND recv_id = 1) ORDER BY create_time DESC LIMIT 1
+
+2024/09/10 10:27:10 [32mC:/Users/孔浩然/Desktop/goproject/newbee-api/newbee/services/mallservice/mall_contact.go:28
+[0m[33m[86.297ms] [34;1m[rows:1][0m SELECT count(*) FROM `tb_newbee_mall_message` WHERE send_id = 9 AND recv_id = 1 AND message_status = 1
+
+2024/09/10 10:27:10 [31;1mC:/Users/孔浩然/Desktop/goproject/newbee-api/newbee/services/mallservice/mall_contact.go:27 [35;1mrecord not found
+[0m[33m[85.792ms] [34;1m[rows:0][0m SELECT * FROM `tb_newbee_mall_message` WHERE (send_id = 1 AND recv_id = 10) OR (send_id = 10 AND recv_id = 1) ORDER BY create_time DESC LIMIT 1
+
+2024/09/10 10:27:10 [32mC:/Users/孔浩然/Desktop/goproject/newbee-api/newbee/services/mallservice/mall_contact.go:28
+[0m[33m[85.915ms] [34;1m[rows:1][0m SELECT count(*) FROM `tb_newbee_mall_message` WHERE send_id = 10 AND recv_id = 1 AND message_status = 1
+
+2024/09/10 10:27:10 [31;1mC:/Users/孔浩然/Desktop/goproject/newbee-api/newbee/services/mallservice/mall_contact.go:27 [35;1mrecord not found
+[0m[33m[86.084ms] [34;1m[rows:0][0m SELECT * FROM `tb_newbee_mall_message` WHERE (send_id = 1 AND recv_id = 11) OR (send_id = 11 AND recv_id = 1) ORDER BY create_time DESC LIMIT 1
+
+2024/09/10 10:27:10 [32mC:/Users/孔浩然/Desktop/goproject/newbee-api/newbee/services/mallservice/mall_contact.go:28
+[0m[33m[85.669ms] [34;1m[rows:1][0m SELECT count(*) FROM `tb_newbee_mall_message` WHERE send_id = 11 AND recv_id = 1 AND message_status = 1
+
+2024/09/10 10:27:11 [32mC:/Users/孔浩然/Desktop/goproject/newbee-api/newbee/services/mallservice/mall_user_token.go:28
+[0m[33m[93.825ms] [34;1m[rows:1][0m SELECT * FROM `tb_newbee_mall_user_token` WHERE token = '244704f28a36449e83e7703a574f9ae6' LIMIT 1
+
+2024/09/10 10:27:11 [32mC:/Users/孔浩然/Desktop/goproject/newbee-api/newbee/services/mallservice/mall_user.go:34
+[0m[33m[86.141ms] [34;1m[rows:1][0m SELECT * FROM `tb_newbee_mall_user` WHERE user_id = 1 LIMIT 1
+
+2024/09/10 10:27:11 [32mC:/Users/孔浩然/Desktop/goproject/newbee-api/newbee/services/mallservice/mall_user_token.go:63
+[0m[33m[175.551ms] [34;1m[rows:1][0m UPDATE `tb_newbee_mall_user_token` SET `expire_time`=1726108031726 WHERE `user_id` = 1
+
+2024/09/10 10:27:11 [32mC:/Users/孔浩然/Desktop/goproject/newbee-api/newbee/services/mallservice/mall_user.go:34
+[0m[33m[86.201ms] [34;1m[rows:1][0m SELECT * FROM `tb_newbee_mall_user` WHERE user_id = 1 LIMIT 1
+
+2024/09/10 10:27:12 [32mC:/Users/孔浩然/Desktop/goproject/newbee-api/newbee/services/mallservice/mall_chat.go:223
+[0m[33m[86.419ms] [34;1m[rows:136][0m SELECT * FROM `tb_newbee_mall_message` WHERE (send_id = 1 AND recv_id = 2) OR (send_id = 2 AND recv_id = 1)
+
+2024/09/10 10:27:12 [32mC:/Users/孔浩然/Desktop/goproject/newbee-api/newbee/services/mallservice/mall_chat.go:224
+[0m[33m[177.185ms] [34;1m[rows:1][0m UPDATE `tb_newbee_mall_message` SET `message_status`=0 WHERE send_id = 2 AND recv_id = 1
+
+2024/09/10 10:27:12 [32mC:/Users/孔浩然/Desktop/goproject/newbee-api/newbee/services/mallservice/mall_user.go:34
+[0m[33m[86.138ms] [34;1m[rows:1][0m SELECT * FROM `tb_newbee_mall_user` WHERE user_id = 2 LIMIT 1
+
+2024/09/10 10:27:35 [32mC:/Users/孔浩然/Desktop/goproject/newbee-api/newbee/services/mallservice/mall_user_token.go:28
+[0m[33m[94.345ms] [34;1m[rows:1][0m SELECT * FROM `tb_newbee_mall_user_token` WHERE token = '244704f28a36449e83e7703a574f9ae6' LIMIT 1
+
+2024/09/10 10:27:35 [32mC:/Users/孔浩然/Desktop/goproject/newbee-api/newbee/services/mallservice/mall_user.go:34
+[0m[33m[86.719ms] [34;1m[rows:1][0m SELECT * FROM `tb_newbee_mall_user` WHERE user_id = 1 LIMIT 1
+
+2024/09/10 10:27:35 [32mC:/Users/孔浩然/Desktop/goproject/newbee-api/newbee/services/mallservice/mall_user_token.go:63
+[0m[33m[176.089ms] [34;1m[rows:1][0m UPDATE `tb_newbee_mall_user_token` SET `expire_time`=1726108055443 WHERE `user_id` = 1
+
+2024/09/10 10:27:35 [32mC:/Users/孔浩然/Desktop/goproject/newbee-api/newbee/services/mallservice/mall_contact.go:58
+[0m[33m[43.106ms] [34;1m[rows:11][0m SELECT * FROM `tb_newbee_mall_user`
+
+2024/09/10 10:27:35 [32mC:/Users/孔浩然/Desktop/goproject/newbee-api/newbee/services/mallservice/mall_contact.go:27
+[0m[33m[86.291ms] [34;1m[rows:1][0m SELECT * FROM `tb_newbee_mall_message` WHERE (send_id = 1 AND recv_id = 2) OR (send_id = 2 AND recv_id = 1) ORDER BY create_time DESC LIMIT 1
+
+2024/09/10 10:27:35 [32mC:/Users/孔浩然/Desktop/goproject/newbee-api/newbee/services/mallservice/mall_contact.go:28
+[0m[33m[86.499ms] [34;1m[rows:1][0m SELECT count(*) FROM `tb_newbee_mall_message` WHERE send_id = 2 AND recv_id = 1 AND message_status = 1
+
+2024/09/10 10:27:35 [31;1mC:/Users/孔浩然/Desktop/goproject/newbee-api/newbee/services/mallservice/mall_contact.go:27 [35;1mrecord not found
+[0m[33m[86.551ms] [34;1m[rows:0][0m SELECT * FROM `tb_newbee_mall_message` WHERE (send_id = 1 AND recv_id = 3) OR (send_id = 3 AND recv_id = 1) ORDER BY create_time DESC LIMIT 1
+
+2024/09/10 10:27:36 [32mC:/Users/孔浩然/Desktop/goproject/newbee-api/newbee/services/mallservice/mall_contact.go:28
+[0m[33m[86.324ms] [34;1m[rows:1][0m SELECT count(*) FROM `tb_newbee_mall_message` WHERE send_id = 3 AND recv_id = 1 AND message_status = 1
+
+2024/09/10 10:27:36 [31;1mC:/Users/孔浩然/Desktop/goproject/newbee-api/newbee/services/mallservice/mall_contact.go:27 [35;1mrecord not found
+[0m[33m[97.217ms] [34;1m[rows:0][0m SELECT * FROM `tb_newbee_mall_message` WHERE (send_id = 1 AND recv_id = 4) OR (send_id = 4 AND recv_id = 1) ORDER BY create_time DESC LIMIT 1
+
+2024/09/10 10:27:36 [32mC:/Users/孔浩然/Desktop/goproject/newbee-api/newbee/services/mallservice/mall_contact.go:28
+[0m[33m[85.878ms] [34;1m[rows:1][0m SELECT count(*) FROM `tb_newbee_mall_message` WHERE send_id = 4 AND recv_id = 1 AND message_status = 1
+
+2024/09/10 10:27:36 [32mC:/Users/孔浩然/Desktop/goproject/newbee-api/newbee/services/mallservice/mall_user_token.go:28
+[0m[33m[93.367ms] [34;1m[rows:1][0m SELECT * FROM `tb_newbee_mall_user_token` WHERE token = '244704f28a36449e83e7703a574f9ae6' LIMIT 1
+
+2024/09/10 10:27:36 [31;1mC:/Users/孔浩然/Desktop/goproject/newbee-api/newbee/services/mallservice/mall_contact.go:27 [35;1mrecord not found
+[0m[33m[86.114ms] [34;1m[rows:0][0m SELECT * FROM `tb_newbee_mall_message` WHERE (send_id = 1 AND recv_id = 5) OR (send_id = 5 AND recv_id = 1) ORDER BY create_time DESC LIMIT 1
+
+2024/09/10 10:27:36 [32mC:/Users/孔浩然/Desktop/goproject/newbee-api/newbee/services/mallservice/mall_user.go:34
+[0m[33m[94.060ms] [34;1m[rows:1][0m SELECT * FROM `tb_newbee_mall_user` WHERE user_id = 1 LIMIT 1
+
+2024/09/10 10:27:36 [32mC:/Users/孔浩然/Desktop/goproject/newbee-api/newbee/services/mallservice/mall_contact.go:28
+[0m[33m[85.680ms] [34;1m[rows:1][0m SELECT count(*) FROM `tb_newbee_mall_message` WHERE send_id = 5 AND recv_id = 1 AND message_status = 1
+
+2024/09/10 10:27:36 [31;1mC:/Users/孔浩然/Desktop/goproject/newbee-api/newbee/services/mallservice/mall_contact.go:27 [35;1mrecord not found
+[0m[33m[85.910ms] [34;1m[rows:0][0m SELECT * FROM `tb_newbee_mall_message` WHERE (send_id = 1 AND recv_id = 6) OR (send_id = 6 AND recv_id = 1) ORDER BY create_time DESC LIMIT 1
+
+2024/09/10 10:27:36 [32mC:/Users/孔浩然/Desktop/goproject/newbee-api/newbee/services/mallservice/mall_user_token.go:63
+[0m[33m[188.544ms] [34;1m[rows:1][0m UPDATE `tb_newbee_mall_user_token` SET `expire_time`=1726108056352 WHERE `user_id` = 1
+
+2024/09/10 10:27:36 [32mC:/Users/孔浩然/Desktop/goproject/newbee-api/newbee/services/mallservice/mall_contact.go:28
+[0m[33m[86.185ms] [34;1m[rows:1][0m SELECT count(*) FROM `tb_newbee_mall_message` WHERE send_id = 6 AND recv_id = 1 AND message_status = 1
+
+2024/09/10 10:27:36 [32mC:/Users/孔浩然/Desktop/goproject/newbee-api/newbee/services/mallservice/mall_user.go:34
+[0m[33m[93.897ms] [34;1m[rows:1][0m SELECT * FROM `tb_newbee_mall_user` WHERE user_id = 1 LIMIT 1
+
+2024/09/10 10:27:36 [31;1mC:/Users/孔浩然/Desktop/goproject/newbee-api/newbee/services/mallservice/mall_contact.go:27 [35;1mrecord not found
+[0m[33m[86.716ms] [34;1m[rows:0][0m SELECT * FROM `tb_newbee_mall_message` WHERE (send_id = 1 AND recv_id = 7) OR (send_id = 7 AND recv_id = 1) ORDER BY create_time DESC LIMIT 1
+
+2024/09/10 10:27:36 [32mC:/Users/孔浩然/Desktop/goproject/newbee-api/newbee/services/mallservice/mall_contact.go:28
+[0m[33m[85.416ms] [34;1m[rows:1][0m SELECT count(*) FROM `tb_newbee_mall_message` WHERE send_id = 7 AND recv_id = 1 AND message_status = 1
+
+2024/09/10 10:27:36 [31;1mC:/Users/孔浩然/Desktop/goproject/newbee-api/newbee/services/mallservice/mall_contact.go:27 [35;1mrecord not found
+[0m[33m[86.453ms] [34;1m[rows:0][0m SELECT * FROM `tb_newbee_mall_message` WHERE (send_id = 1 AND recv_id = 8) OR (send_id = 8 AND recv_id = 1) ORDER BY create_time DESC LIMIT 1
+
+2024/09/10 10:27:36 [32mC:/Users/孔浩然/Desktop/goproject/newbee-api/newbee/services/mallservice/mall_contact.go:28
+[0m[33m[86.080ms] [34;1m[rows:1][0m SELECT count(*) FROM `tb_newbee_mall_message` WHERE send_id = 8 AND recv_id = 1 AND message_status = 1
+
+2024/09/10 10:27:37 [31;1mC:/Users/孔浩然/Desktop/goproject/newbee-api/newbee/services/mallservice/mall_contact.go:27 [35;1mrecord not found
+[0m[33m[85.996ms] [34;1m[rows:0][0m SELECT * FROM `tb_newbee_mall_message` WHERE (send_id = 1 AND recv_id = 9) OR (send_id = 9 AND recv_id = 1) ORDER BY create_time DESC LIMIT 1
+
+2024/09/10 10:27:37 [32mC:/Users/孔浩然/Desktop/goproject/newbee-api/newbee/services/mallservice/mall_contact.go:28
+[0m[33m[110.434ms] [34;1m[rows:1][0m SELECT count(*) FROM `tb_newbee_mall_message` WHERE send_id = 9 AND recv_id = 1 AND message_status = 1
+
+2024/09/10 10:27:37 [31;1mC:/Users/孔浩然/Desktop/goproject/newbee-api/newbee/services/mallservice/mall_contact.go:27 [35;1mrecord not found
+[0m[33m[86.523ms] [34;1m[rows:0][0m SELECT * FROM `tb_newbee_mall_message` WHERE (send_id = 1 AND recv_id = 10) OR (send_id = 10 AND recv_id = 1) ORDER BY create_time DESC LIMIT 1
+
+2024/09/10 10:27:37 [32mC:/Users/孔浩然/Desktop/goproject/newbee-api/newbee/services/mallservice/mall_contact.go:28
+[0m[33m[85.751ms] [34;1m[rows:1][0m SELECT count(*) FROM `tb_newbee_mall_message` WHERE send_id = 10 AND recv_id = 1 AND message_status = 1
+
+2024/09/10 10:27:37 [31;1mC:/Users/孔浩然/Desktop/goproject/newbee-api/newbee/services/mallservice/mall_contact.go:27 [35;1mrecord not found
+[0m[33m[85.542ms] [34;1m[rows:0][0m SELECT * FROM `tb_newbee_mall_message` WHERE (send_id = 1 AND recv_id = 11) OR (send_id = 11 AND recv_id = 1) ORDER BY create_time DESC LIMIT 1
+
+2024/09/10 10:27:37 [32mC:/Users/孔浩然/Desktop/goproject/newbee-api/newbee/services/mallservice/mall_contact.go:28
+[0m[33m[86.431ms] [34;1m[rows:1][0m SELECT count(*) FROM `tb_newbee_mall_message` WHERE send_id = 11 AND recv_id = 1 AND message_status = 1

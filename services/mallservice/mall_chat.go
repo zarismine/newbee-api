@@ -132,9 +132,11 @@ func UpDateCache(key string, field string, val string, isRecv bool) {
 
 func (c *chatService) sendProc(node *Node) {
 	defer func() {
+		c.Lock()
 		if _, ok := c.clientMap[node.UserId]; ok {
 			delete(c.clientMap, node.UserId)
 		}
+		c.Unlock()
 	}()
 	for {
 		data := <-node.DataQueue
@@ -149,9 +151,22 @@ func (c *chatService) sendProc(node *Node) {
 
 func (c *chatService) recvProc(node *Node) {
 	defer func() {
+		board := map[string]interface{}{
+			"sendId":  node.UserId,
+			"type":    -2,
+			"content": "下线",
+		}
+		resp, _ := jsoniter.Marshal(board)
+		for _, v := range c.clientMap {
+			if v.UserId != node.UserId {
+				v.DataQueue <- resp
+			}
+		}
+		c.Lock()
 		if _, ok := c.clientMap[node.UserId]; ok {
 			delete(c.clientMap, node.UserId)
 		}
+		c.Unlock()
 	}()
 	cacheUserContact := fmt.Sprintf("%s%v", global.CacheUserContactPrefix, node.UserId)
 	for {

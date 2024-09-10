@@ -31,36 +31,36 @@ func (m *mallUserTokenService) Take(where ...interface{}) *mall.MallUserToken {
 	return ret
 }
 
-func (m *mallUserTokenService) Save (token *mall.MallUserToken) (err error) {
+func (m *mallUserTokenService) Save(token *mall.MallUserToken) (err error) {
 	return global.DB.Save(token).Error
 }
-func (m *mallUserTokenService) GetById (Id int) *mall.MallUserToken {
-	return m.Take("user_id = ?",Id)
+func (m *mallUserTokenService) GetById(Id int) *mall.MallUserToken {
+	return m.Take("user_id = ?", Id)
 }
 
-func (m *mallUserTokenService) GetUserTokenByToken (token string) (*mall.MallUserToken,error) {
-	usertoken := m.Take("token = ?",token)
+func (m *mallUserTokenService) GetUserTokenByToken(token string) (*mall.MallUserToken, error) {
+	usertoken := m.Take("token = ?", token)
 	if usertoken == nil {
-		return nil,errors.New("无效token")
+		return nil, errors.New("无效token")
 	}
-	if m.IsVaildToken(usertoken){
+	if m.IsVaildToken(usertoken) {
 		m.UpdateToken(usertoken)
-		return usertoken,nil
-	}else{
-		return nil,errors.New("无效token")
+		return usertoken, nil
+	} else {
+		return nil, errors.New("无效token")
 	}
 }
 
-func (m *mallUserTokenService) DeleteUserToken (token string) error {
-	ret := m.Take("token = ?",token)
+func (m *mallUserTokenService) DeleteUserToken(token string) error {
+	ret := m.Take("token = ?", token)
 	if ret == nil {
 		return errors.New("invaild token")
 	}
-	return global.DB.Model(ret).Update("expire_time",dates.NowTimestamp()).Error
+	return global.DB.Model(ret).Update("expire_time", dates.NowTimestamp()).Error
 }
 
 func (m *mallUserTokenService) UpdateToken(token *mall.MallUserToken) error {
-	return global.DB.Model(token).Update("expire_time",dates.NowTimestamp() + 172800000).Error
+	return global.DB.Model(token).Update("expire_time", dates.NowTimestamp()+172800000).Error
 }
 
 func (m *mallUserTokenService) GenerateToken(id int) *mall.MallUserToken {
@@ -69,10 +69,10 @@ func (m *mallUserTokenService) GenerateToken(id int) *mall.MallUserToken {
 	expireTime, _ := time.ParseDuration("48h")
 	expireDate := nowDate.Add(expireTime)
 	MallUserToken := &mall.MallUserToken{
-		Token     :      token,
-		UserId    :      id,
-		UpdateTime:      dates.Timestamp(nowDate),
-		ExpireTime:      dates.Timestamp(expireDate),
+		Token:      token,
+		UserId:     id,
+		UpdateTime: dates.Timestamp(nowDate),
+		ExpireTime: dates.Timestamp(expireDate),
 	}
 	err := m.Create(MallUserToken)
 	if err != nil {
@@ -86,8 +86,13 @@ func (m *mallUserTokenService) IsVaildToken(token *mall.MallUserToken) bool {
 	if user == nil {
 		return false
 	}
-	if token.ExpireTime > dates.NowTimestamp() && token != nil && user.LockedFlag == 0{
+	if token.ExpireTime > dates.NowTimestamp() && token != nil && user.LockedFlag == 0 {
 		return true
 	}
 	return false
+}
+
+func (m *mallUserTokenService) GetIdByToken(token string) int {
+	tokenInfo, _ := m.GetUserTokenByToken(token)
+	return tokenInfo.UserId
 }

@@ -751,7 +751,7 @@
         <entry key="file://$PROJECT_DIR$/controller/api/mall_user.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1720967419961" />
+              <option name="lastModified" value="1725934342721" />
               <option name="schema">
                 <list>
                   <option value="MallUserController" />
@@ -1261,7 +1261,7 @@
         <entry key="file://$PROJECT_DIR$/router/router.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1722587881586" />
+              <option name="lastModified" value="1725936240409" />
             </ScannedPath>
           </value>
         </entry>
@@ -1376,7 +1376,7 @@
         <entry key="file://$PROJECT_DIR$/services/mallservice/mall_chat.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1725896289873" />
+              <option name="lastModified" value="1725900553097" />
               <option name="schema">
                 <list>
                   <option value="chatService" />
@@ -1474,7 +1474,7 @@
         <entry key="file://$PROJECT_DIR$/services/mallservice/mall_user_token.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1720967419991" />
+              <option name="lastModified" value="1725934342506" />
               <option name="schema">
                 <list>
                   <option value="mallUserTokenService" />

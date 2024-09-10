@@ -22,6 +22,12 @@ func (c *MallUserController) GetBy(id int) *web.JsonResult {
 	return web.JsonError(errors.New("用户不存在"))
 }
 
+func (c *MallUserController) GetId() *web.JsonResult {
+	token := c.Ctx.GetHeader("Token")
+	id := mallservice.MallUserTokenService.GetIdByToken(token)
+	return web.JsonData(id)
+}
+
 func (c *MallUserController) PostRegister() *web.JsonResult {
 	var req request.RegisterUserParam
 	_ = c.Ctx.ReadJSON(&req)
@@ -31,9 +37,9 @@ func (c *MallUserController) PostRegister() *web.JsonResult {
 	}
 	return &web.JsonResult{
 		ErrorCode: 0,
-		Message  : "注册成功",
-		Data     : c.buildbyUser(user),
-		Success  : true,
+		Message:   "注册成功",
+		Data:      c.buildbyUser(user),
+		Success:   true,
 	}
 }
 
@@ -51,7 +57,7 @@ func (c *MallUserController) PostLogin() *web.JsonResult {
 
 func (c *MallUserController) GetInfo() *web.JsonResult {
 	token := c.Ctx.GetHeader("Token")
-	user,err := mallservice.MallUserService.GetUserByToken(token)
+	user, err := mallservice.MallUserService.GetUserByToken(token)
 	if err != nil {
 		return web.JsonError(err)
 	}
@@ -61,7 +67,7 @@ func (c *MallUserController) GetInfo() *web.JsonResult {
 func (c *MallUserController) PutInfo() *web.JsonResult {
 	var req request.UpdateUserInfoParam
 	token := c.Ctx.GetHeader("Token")
-	user,err := mallservice.MallUserService.GetUserByToken(token)
+	user, err := mallservice.MallUserService.GetUserByToken(token)
 	if err != nil {
 		return web.JsonError(err)
 	}
@@ -89,4 +95,3 @@ func (c *MallUserController) buildbyUser(u *mall.MallUser) map[string]interface{
 	data["introducesign"] = u.IntroduceSign
 	return data
 }
-
