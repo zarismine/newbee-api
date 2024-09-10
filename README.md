@@ -3,7 +3,7 @@
 
 [原项目地址](https://github.com/newbee-ltd/newbee-mall-api-go)
 
-[本项目示例](http://121.37.200.179/)
+[本项目示例](http://121.37.200.179:28082/)
 
 ***
 
